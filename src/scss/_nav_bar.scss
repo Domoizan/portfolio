@@ -1,0 +1,22 @@
+.nav{
+    position: absolute;
+    width: 95%;
+    bottom:-.5rem;
+    left: 0;
+    display: flex;
+    justify-content:center;
+    & li{
+        display: inline-block;
+        
+        height: 2rem;
+        border-radius: 1rem;
+    }
+
+    & a {
+        display:inline-block;
+    }
+    @media (min-width: 1200px){
+        justify-content: flex-end;
+    }
+
+}

@@ -1,0 +1,23 @@
+.bandeau {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    color: #fff;
+    background-image: url("./src/images/bandeau_1.jpg");
+    flex-shrink: 1;
+    padding: .5rem;
+
+
+   & h1 {
+        font-size: 1.5rem;
+    }
+    
+    p[class=fonction] {
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+}
