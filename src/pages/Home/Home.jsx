@@ -1,5 +1,6 @@
 import Card from "../../components/Card/Card"
 import ListCards from "../../components/ListCadrs/ListCards"
+import ListComp from "../../components/listComp/ListComp"
 import {apropos, projets,formations,experiences } from './../../assets/data'
 export const Home=()=>{
     
@@ -42,6 +43,7 @@ export const Home=()=>{
                 <img src="./src/images/lee-campbell-DtDlVpy-vvQ-unsplash.webp" alt="image bureau"/>
                 <div className="competences">
                     <h2 className="titre">Compétences</h2>
+                    <ListComp/>
                     <hr/>
                     <ul className="competences">
                         <li><span>Html</span><img src="./src/images/icones/icons8-html-100.png" alt="Html" className="competence"/></li>
