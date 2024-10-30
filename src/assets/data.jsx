@@ -42,20 +42,81 @@ export const projets=[{
         description:'Description Formation 4'
     }]
 
-    export const experiences=[{
-
-        titre:'Expérience 1',
-        description:'description Expérience 1'
+export const experiences=[{
+    titre:'Expérience 1',
+    description:'description Expérience 1'
     },
     {
-        titre:'Expérience 2',
-        description:'Description Expérience 2'
+    titre:'Expérience 2',
+    description:'Description Expérience 2'
     },
     {
-        titre:'Expérience 3',
-        description:'Description Expérience 3'
+    titre:'Expérience 3',
+    description:'Description Expérience 3'
     },
     {
-        titre:'Expérience 4',
-        description:'Description Expérience 4'
+    titre:'Expérience 4',
+    description:'Description Expérience 4'
     }]
+
+    export const competences=[
+    {
+    categorie:"Front-end",
+    lst:[{
+    nom:"Html",
+    icone:"./src/images/icones/icons8-html-100.png",
+    iconeAlt:"icone Html"
+    },
+    {
+    nom:"Css",
+    icone:"./src/images/icones/icons8-css-40.png",
+    iconeAlt:"icone Css"
+    },
+    {
+    nom:"JavaScript",
+    icone:"./src/images/icones/icons8-javascript-48.png",
+    iconeAlt:"icone JavaScript"
+    },
+    {
+    nom:"Sass",
+    icone:"./src/images/icones/icons8-toupet-50.png",
+    iconeAlt:"icone Sass"
+    },
+    {
+    nom:"Réact",
+    icone:"./src/images/icones/icons8-réagir-40.png",
+    iconeAlt:"icone Réact"
+    }]
+    },
+    {
+    categorie:"Back-end",
+    lst:[{
+    nom:"NodeJS",
+    icone:"./src/images/icones/icons8-réagir-40.png",
+    iconeAlt:"icone NodeJS"
+    },
+    {
+    nom:"MySql",
+    icone:"./src/images/icones/icons8-réagir-40.png",
+    iconeAlt:"icone MySql"
+    },
+    {
+    nom:"MongoDB",
+    icone:"./src/images/icones/icons8-réagir-40.png",
+    iconeAlt:"icone MongoDB"
+    }]
+    },
+    {
+    categorie:"Autres",
+    lst:[{
+    nom:"C/C++",
+    icone:"./src/images/icones/icons8-réagir-40.png",
+    iconeAlt:"icone C/C++"
+    },
+    {
+    nom:"Php",
+    icone:"./src/images/icones/icons8-réagir-40.png",
+    iconeAlt:"icone Php"
+    }]
+    }
+    ]

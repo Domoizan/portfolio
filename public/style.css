@@ -207,6 +207,7 @@ h1 {
 }
 .nav li {
   display: inline-block;
+  margin: 0.25rem;
   height: 2rem;
   border-radius: 1rem;
 }
@@ -296,16 +297,43 @@ h1 {
   width: 100%;
   border: 1px solid #000;
 }
-.main article[class=expérience]::after {
-  content: "";
+.main article[class=expérience] button {
+  margin: 0;
   position: absolute;
-  left: 95%;
-  top: 2rem;
-  width: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+  top: 1.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+  color: #adf0dd;
+}
+.main article[class=expérience] button i {
+  transform: rotate(0deg);
+  transition: transform 300ms;
+  width: 2rem;
+  height: 2rem;
+}
+.main article[class=expérience] button .open {
+  transform: rotate(180deg);
+}
+.main article[class=expérience] button .close {
+  transform: rotate(0deg);
+}
+.main article[class=expérience] div {
   height: 0;
-  border-left: 0.5rem solid transparent;
-  border-right: 0.5rem solid transparent;
-  border-top: 0.5rem solid #0bd8b6;
+  opacity: 0;
+  transition: all 300ms;
+  color: #adf0dd;
+}
+.main article[class=expérience] .opendiv {
+  height: auto;
+  opacity: 1;
+}
+.main article[class=expérience] .closediv {
+  height: 0;
+  opacity: 0;
 }
 .main article[class=card] img {
   width: 300px;
@@ -332,12 +360,6 @@ h1 {
 @media (min-width: 1200px) {
   .main {
     width: 66%;
-    /*
-            & article[class='apropos']{
-                width: 100%;
-                height: 140px;
-                padding-left: 115px;
-            }*/
   }
   .main article[class=card] {
     width: 45%;
