@@ -1,0 +1,136 @@
+.Modal {
+
+  position: absolute;
+  display: flex;
+  width: 50%;
+  min-height: 500px;
+  min-width: 400px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: $teal-2;
+  color: $teal-12;
+  border-radius: 1rem;
+  border:1rem solid $teal-6;
+
+  & img{
+    width: 50%;
+    height: 200px;
+    object-fit:contain;
+  }
+
+
+  & Article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    //border:1px solid white;
+    border-radius: 1rem;
+  }
+
+  & div{
+    width: 100%;
+  }
+
+  & h2{
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  
+  p.min_descipt{
+    font-size: 1.25rem;
+    width: auto;
+  }
+
+  & p[class='titre']{
+    font-weight: 900;
+    margin-top: 0.5rem;
+    
+  }
+
+  & p{
+    width: 100%;
+  }
+
+  & Article button{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2rem;
+    background: $teal-4;
+    border: 2px solid $teal-4;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: $teal-4;
+    color: $teal-12;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        background-color: $teal-5;
+        border-color: $teal-7;
+    }
+  }
+
+  & li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 140px;
+    margin-bottom: .25rem;
+  }
+
+  & img[class="techno"] {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+  }
+
+  & div[class="techno"] {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 140px;
+  }
+
+  & img[class="liens"] {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+  }
+
+  & div[class="liens"] {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    right: 0px;
+    width: 140px;
+  }
+
+  & a[class='liens']{
+    text-decoration: none;
+    color: $teal-12;
+    &:hover{
+      text-decoration: none;
+      cursor: pointer;
+    }
+    &:visited, &:active{
+      text-decoration: none;
+    }
+  }
+}
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: color.adjust($teal-9, $alpha: -0.5);
+  }

@@ -1,0 +1,91 @@
+@use "sass:color";
+@import './minireset';
+@import './couleurs.scss';
+
+/* couleurs */
+
+$nav_bg: rgb(0, 255, 255);
+$nav_bg_item: rgb(0, 226, 226);
+* {
+    font-family:'Times New Roman', Times, serif
+}
+.button{
+    padding: 0 1rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 900;
+    border-radius: 1rem ;
+    border: 2px solid transparent;
+    padding-top: .3rem;
+    text-align: center;
+    text-decoration: none;
+    & .color-teal{
+        background-color: $teal-4;
+        color: $teal-12;
+    }
+
+    & :hover{
+        cursor: pointer;
+        transform: scale(1.05);
+        background-color: $teal-5;
+        border-color: $teal-7;
+    }
+}
+
+.color-teal{
+    background-color: $teal-2;
+    color: $teal-12;
+}
+
+
+
+
+:root {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 1.5 rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 450px;
+    margin:0 auto;
+    height: auto;
+    min-height: 600px;
+   background-color: $teal-1;
+   color: $teal-12;
+}
+
+.header{
+    position:relative;
+    height: 200px;
+}
+
+.contenu{
+    flex-shrink: 1;
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 450px;
+    justify-content: center;
+    gap:.5rem;
+    @media (min-width: 1200px){
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+}
+
+@import './Bandeau';
+@import './nav_bar';
+@import './main';
+@import './aside_left';
+@import './footer';
+@import './bta';
+@import './modale';
+@import './footer'
+
