@@ -205,7 +205,7 @@ export const experiences=[
 
 export const liens=[
     {
-    lnk:'#',
+    lnk:'https://github.com/Domoizan/portfolio',
     icone:'/images/icones/github.png',
     altimg:'Lien vers repository porfolio'
     },
