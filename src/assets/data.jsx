@@ -118,7 +118,8 @@ export const experiences=[
     detail:[
         "Audit qualité des techniciens => Rappel des procédures (techniques et sécurités).",
         "Mise en et hors service de compteurs en clientèle.",
-        "Expliquer et apporter les réponses concernant le fonctionnement du compteur."
+        "Expliquer et apporter les réponses concernant le fonctionnement du compteur.",
+        "Ajout d'un paragraphe"
     ]
     }]
 
