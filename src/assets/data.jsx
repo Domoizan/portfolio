@@ -29,7 +29,7 @@ export const projets=[
         description:'Portfolio Sophie Bluel',
         detail:[{titre:"Demande",para:["Rendre dynamique le portfolio actuel","Utiliser l'API fournie pour obtenir le contenu","Ajouter les fonctionnalités d'authentification et de modification du contenu", "Mettre en place des fenêtres modales pour l'administration du contenu"]},
                 {titre:"Réalisation",para:["Ecriture du code JavaScript pour réaliser l'ensemble des demandes","Création de la page de connection et des fenêtre modales."]}],
-        liens:[{lib:'Repository',lnk:'https://github.com/Domoizan/Portfolio-architecte-sophie-bluel/tree/master',icone:'/images/icones/github.png',altimg:'liens vers repository github'},
+        liens:[{lib:'Repository',lnk:'https://github.com/Domoizan/Portfolio-architecte-sophie-bluel/tree/main',icone:'/images/icones/github.png',altimg:'liens vers repository github'},
             {lib:'Maquette',lnk:'https://www.figma.com/file/kfKHknHySoTibZfdolGAX6/Desktop?node-id=0%3A1',icone:'/images/icones/figma.png',altimg:'liens vers maquette figma'},
         ],
         techno:[{nom:'Html',icone:'/images/icones/html.png',altimg:'icone Html'},
@@ -54,7 +54,7 @@ export const projets=[
             ]
     },
     {
-        cover:'/images/bank.webp',
+        cover:'/images/bank.png',
         imageAlt:'copie d\'écran site Bank',
         titre:'Argent Bank',
         description:'Application Bank',
