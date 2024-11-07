@@ -48,7 +48,7 @@ export const Home=()=>{
                 </div>
             </aside>
             <div className="bta button">
-                <a className="button color-teal" href="mailto:email@example.com?cc=secondemail@example.com&subject=Mail from our Website">Me contacter</a>
+                <a className="button color-teal" href="mailto:moizand@live.fr?subject=Mail from our Website">Me contacter</a>
             </div>
         </div>  
         <footer className="footer">
