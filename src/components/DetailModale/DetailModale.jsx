@@ -11,6 +11,35 @@ const DetailModale = ({
     return (
         <>
         {
+            <div className="techno">
+                <p>Réalisé avec :</p>
+                <ul>
+                    {
+                    techno.map((tech,idx)=>(
+                        <li className="techno" key={idx}><span>{tech.nom}</span><img src={`${tech.icone}`}  className='techno' alt={`${tech.altimg}`}/> </li>
+                    ))
+                    }
+                </ul>
+            </div>
+        }
+        {
+            <div className="liens">
+                <p>Liens vers :</p>
+                <ul>
+                    {
+                    liens.map((lnk,idx)=>(
+                        <li className="liens" key={idx}>
+                            <a target="_blank" href={`${lnk.lnk}`} className="liens">{lnk.lib}</a>
+                                <img src={`${lnk.icone}`} alt={`${lnk.altimg}`} className="liens"/>
+                            
+                        </li>
+                    ))
+                    }
+                </ul>
+            </div>
+        }
+
+        {
             detail.map((elt,idx)=>(
                 <div key={`detail-${idx}`}>
                 <p className="titre" key={idx}>{elt.titre}</p>
@@ -22,31 +51,8 @@ const DetailModale = ({
                 </div>
             ))
         }
-        {
-            <div className="liens">
-                <ul>
-                    {
-                    liens.map((lnk,idx)=>(
-                        <li className="liens" key={idx}>
-                            <a target="_blank" href={`${lnk.lnk}`} className="liens">{lnk.lib}</a>
-                            <img src={`${lnk.icone}`} alt={`${lnk.altimg}`} className="liens"/>
-                        </li>
-                    ))
-                    }
-                </ul>
-            </div>
-        }
-        {
-            <div className="techno">
-                <ul>
-                    {
-                    techno.map((tech,idx)=>(
-                        <li className="techno" key={idx}><span>{tech.nom}</span><img src={`${tech.icone}`}  className='techno' alt={`${tech.altimg}`}/> </li>
-                    ))
-                    }
-                </ul>
-            </div>
-        }
+
+
         </>
     )
 }

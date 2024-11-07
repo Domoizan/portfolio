@@ -11,8 +11,8 @@ export const projets=[
         imageAlt:'copie d\'écran site ohmyfood',
         titre:'Ohmyfood',
         description:'Application Restaurants',
-        detail:[{titre:"Demande",para:["Réalisation de l'interface mobile-first du site d’une start-up.","Utilisation de Sass, pour implémenter des animations CSS ainsi que de Git et GitHub pour versionnerez le projet."]},
-        {titre:"Réalisation",para:["Mise en place de la structure Html du site selon la maquette fournie, élaboration des régles Css pour la mise en forme et réalisation des animations","Création du repository sur GitHub"]}],
+        detail:[{titre:"Demande",para:["Réalisation de l'interface mobile-first du site d’une start-up.","Utilisation de Sass, pour implémenter des animations CSS ainsi que de Git et GitHub pour versionner le projet."]},
+        {titre:"Réalisation",para:["Mise en place de la structure Html du site selon la maquette fournie, élaboration des règles Css pour la mise en forme et réalisation des animations","Création du repository sur GitHub"]}],
         liens:[{lib:'Repository',lnk:'https://github.com/Domoizan/kasa',icone:'/images/icones/github.png',altimg:'liens vers repository github'},
             {lib:'Maquette',lnk:'https://www.figma.com/file/t4449fzDnwGYmzuwQdu87V/Projet-3-FR---Ohmyfood?node-id=0%3A1',icone:'/images/icones/figma.png',altimg:'liens vers maquette figma'},
             {lib:'Prototype',lnk:'https://www.figma.com/proto/t4449fzDnwGYmzuwQdu87V/Maquettes-Ohmyfood-(mobile-et-desktop)?node-id=25368-591&scaling=scale-down&page-id=0%3A1&starting-point-node-id=25368%3A591&show-proto-sidebar=1',icone:'/images/icones/figma.png',altimg:'comporetment interface'}
