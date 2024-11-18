@@ -210,7 +210,7 @@ export const liens=[
     altimg:'Lien vers repository porfolio'
     },
     {
-    lnk:'#',
+    lnk:'https://www.linkedin.com/in/dominique-moizan',
     icone:'/images/icones/linkedin.png',
     altimg:'Lien linkedin'
     }
